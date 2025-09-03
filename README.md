@@ -72,14 +72,14 @@ terraform destroy -auto-approve \
 
 ## 📸 Demo Screenshots
 
-- **WAF Blocked Requests**  
-  ![Blocked Requests](images/waf-blocked-requests.png)
+<p><b>WAF Blocked Requests</b></p>
+<img src="images/waf-blocked-requests.png" alt="Blocked Requests" width="900"/>
 
-- **CloudWatch Dashboard**  
-  ![WAF Dashboard](images/waf-dashboard.png)
+<p><b>CloudWatch Dashboard</b></p>
+<img src="images/waf-dashboard.png" alt="WAF Dashboard" width="900"/>
 
-- **SQLi / XSS curl tests**  
-  ![curl tests](images/waf-curl-tests.png)
+<p><b>SQLi / XSS curl tests</b></p>
+<img src="images/waf-curl-tests.png" alt="curl tests" width="900"/>
 
 🔐 Skills Demonstrated
 
