@@ -82,6 +82,7 @@ terraform destroy -auto-approve \
 ![curl tests](images/waf-curl-tests.png?raw=true)
 
 
+
 🔐 Skills Demonstrated
 
 Terraform IaC for AWS Security
