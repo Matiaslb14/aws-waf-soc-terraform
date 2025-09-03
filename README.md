@@ -70,15 +70,15 @@ terraform destroy -auto-approve \
   -var aws_region="us-east-1" \
   -var aws_profile="your-profile"
 
-📸 Demo Screenshots
+## 📸 Demo Screenshots
 
-- **WAF Blocked Requests**
+- **WAF Blocked Requests**  
   ![Blocked Requests](images/waf-blocked-requests.png)
 
-- **CloudWatch Dashboard**
+- **CloudWatch Dashboard**  
   ![WAF Dashboard](images/waf-dashboard.png)
 
-- **SQLi / XSS curl tests**
+- **SQLi / XSS curl tests**  
   ![curl tests](images/waf-curl-tests.png)
 
 🔐 Skills Demonstrated
