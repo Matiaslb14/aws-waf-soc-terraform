@@ -16,7 +16,6 @@
 
 ## ⚡ Deployment
 
-```bash
 # Initialize
 terraform init
 
@@ -59,7 +58,16 @@ CloudWatch → Dashboard (waf-soc-dashboard) → graphs for blocked vs allowed r
 
 SNS Email Alerts → triggered when WAF blocks traffic or ALB has 5xx spikes.
 
-.
+## 📸 Evidence
+
+**1. WAF Blocked Requests** – Console showing malicious traffic automatically blocked.  
+![WAF Blocked Requests](images/waf-blocked-requests.png)
+
+**2. WAF cURL Tests** – Simulated SQLi attack blocked with HTTP 403 response.  
+![WAF cURL Tests](images/waf-curl-tests.png)
+
+**3. WAF Dashboard (CloudWatch)** – Dashboard with graphs of blocked vs allowed requests.  
+![WAF Dashboard](images/waf-dashboard.png)
 
 🧹 Destroy
 
